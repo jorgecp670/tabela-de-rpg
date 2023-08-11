@@ -159,6 +159,18 @@ function rolarTempo() {
     const resultado = tabelaVeneno[Math.floor(Math.random() * tabelaVeneno.length)];
     document.getElementById("venenoResultado").textContent = "Resultado: " + resultado;
   }
+  function rolarDanoMassivo() {
+    const tabelaDanoMassivo = [
+      "O personagem entra em Morrendo",
+      "O personagem fica com 1 de PV e fica Inconsciente.",
+      "O personagem fica Inconsciente.",
+      "O personagem fica Atordoado até o fim de seu próximo turno.",
+      "O personagem não pode usar reações e fica Debilitado até o fim de seu próximo turno.",
+      "O personagem não pode usar reações até o fim de seu próximo turno.",
+    ];
+    const resultado = tabelaDanoMassivo[Math.floor(Math.random() * tabelaDanoMassivo.length)];
+    document.getElementById("danoMassivoResultado").textContent = "Resultado: " + resultado;
+  }
   
   // Repita as funções para as outras tabelas
   

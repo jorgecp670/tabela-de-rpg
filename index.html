@@ -70,23 +70,22 @@
   </div>
 
 </div>
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyACHyY-4JNF1DWO1hjNiqCJDLWDK5rI7pk",
-  authDomain: "tabela-de-rpg.firebaseapp.com",
-  projectId: "tabela-de-rpg",
-  storageBucket: "tabela-de-rpg.appspot.com",
-  messagingSenderId: "779306470831",
-  appId: "1:779306470831:web:1cd828130bfe63a328f35a"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
+<script src="https://www.gstatic.com/firebasejs/9.1.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.1.0/firebase-firestore.js"></script>
 <script src="script.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyACHyY-4JNF1DWO1hjNiqCJDLWDK5rI7pk",
+    authDomain: "tabela-de-rpg.firebaseapp.com",
+    projectId: "tabela-de-rpg",
+    storageBucket: "tabela-de-rpg.appspot.com",
+    messagingSenderId: "779306470831",
+    appId: "1:779306470831:web:1cd828130bfe63a328f35a"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
 </body>
 </html>
